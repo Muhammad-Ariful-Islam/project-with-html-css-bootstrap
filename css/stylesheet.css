@@ -1,0 +1,737 @@
+/* font-family: 'Inter', sans-serif;
+
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/* Navbar Start  */
+
+.navbar{
+    padding-top: 25px;
+}
+.navbar .navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #030303;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.navbar .navbar-nav .active{
+    font-weight: 600;
+}
+.navbar .btn{
+    font-family: 'Inter', sans-serif;
+    padding: 15px 35px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2378FF;
+    background-color: #E8F1FF;
+    border-radius: 12px;
+}
+
+/* Navbar End  */
+
+/* Header Section Start  */
+.container .header{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color: #101130;
+    margin-top: 86px;
+}
+.container .description{ 
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #606176;
+    margin-top: 28px;
+}
+.head-btn{
+    padding: 20px 50px;
+    background-color: #F77E53;
+    border: 0;
+    border-radius: 16px ;      
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    color: #FEF4F1;
+    margin-bottom: 35px;
+    margin-top: 16px;
+}
+.container .notsure{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #606176;
+}
+.banner-img{
+    margin-top: 70px;
+    padding-bottom: 125px;
+    margin-left: 36px;
+}
+/* Header Section end  */
+
+/* Brand Section Start  */
+
+.brand{
+    padding-bottom: 137px;
+}
+.brand .brand-text .brand-heading{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 75px;
+    color: #101131;
+}
+.brand .brand-text .brand-desc{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #606176;
+    max-width: 218px;
+}
+.first-img{
+    margin-left: 18px;
+}
+/* Brand Section End  */
+
+/* School Section Start  */
+
+.school{
+    padding-bottom: 90px;
+}
+.school-card{
+    width: 607px;
+    margin-left: 80px;
+}
+.school .school-card .school-card-heading h3{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    color: #101130;
+    max-width: 431px;
+    margin-bottom: 60px;
+}
+.school-first-card{
+    width: 256px;
+}
+.school .school-card .school-first-card h2{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #101130;
+    margin-top: 26px;
+    margin-bottom: 12px;
+}
+.school .school-card .school-first-card p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #606176;
+    max-width: 256px;
+}
+.school-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 82px;
+    row-gap: 45px;
+}
+/* School Sexction End */
+
+/* Feature Section Start  */
+.feature{
+    padding-bottom: 100px;
+}
+.feature .feature-heading-part{
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.feature .feature-heading h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    color: #101130;
+    max-width: 431px;
+}
+.feature .feature-heading-part .feature-btn button{
+    padding: 19px 23px ;
+    border: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #2076FF;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 1px solid #2076FF;
+}
+.feature .feature-heading-part .feature-btn button:hover{
+    background-color: #2076FF;
+    color: white;
+    transition: 0.7s;
+}
+.feature-card-wrapper{
+    width: 1140px;
+    margin-top: 60px;
+    display: flex;
+    margin-left: 70px; 
+}
+.feature .feature-card-heading{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #101130;
+    margin-top: 16px;
+    margin-bottom: 38px;
+}
+.feature .feature-card-btn{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #2076FF;
+}
+.feature .feature-card-wrapper .count{
+    display: flex;
+    justify-content: space-between;
+}
+.feature .feature-card-wrapper .count .people h5{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #606176;
+}
+.feature .feature-card-wrapper .count .people i{
+    margin-right: 4px;
+    color: #F77E53;
+}
+.feature .feature-card-wrapper .count .duration h5{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #606176;
+}
+.feature .feature-card-wrapper .count .duration i{
+    margin-right: 4px;
+    color:#F77E53;
+}
+
+.feature .feature-first-card {
+	width: 240px;
+	margin: 40px 0;
+}
+.feature .feature-first-card button{
+    width: 240px;
+    border: 0;
+    padding: 9px 0;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid #2076FF;
+    margin-top: 25px;
+}
+.feature .feature-first-card button i{
+    margin-right: 12px;
+}
+.feature .feature-first-card button i:hover{
+    color: white;
+}
+.feature .feature-first-card button:hover{
+    color: white;
+    background-color: #2076FF;
+    transition: 0.3s;
+}
+
+
+.slider-btn-style-left {
+	position: absolute;
+	left: -60px;
+	bottom: 167px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.6s;
+}
+.slider-btn-style-right {
+	position: absolute;
+	right: 51px;
+	bottom: 167px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.6s;
+}
+.slider-btn-style-right , .slider-btn-style-left i{
+    font-size: 24px;
+}
+
+.slider-btn-style-right:hover{
+    background-color: #2076FF;
+    color: white;
+}
+.slider-btn-style-left:hover{
+    background-color: #2076FF;
+    color: white;
+}
+
+.slick-dots {
+	display: flex;
+    justify-content: space-between;
+	position: absolute;
+	bottom: -73px;
+	left: 38%;
+}
+.slick-dots li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+.slick-dots button{
+    border: 1px solid black;
+    background-color: transparent;
+    color: transparent;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.slick-dots .slick-active{
+    background-color: rgba(0, 0, 0, 0.64);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+}
+.slick-center{
+    transform: scale(1.2);
+}
+/* Feature Section End  */
+
+/* Transform Part Start  */
+
+.transform{
+   margin-bottom: 185px;
+}
+.transform .transform-text h3{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    color: #101130;
+    margin-top: 130px;
+}
+.transform .transform-text p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #606176;    
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.transform .transform-shape{
+    width: 545px;
+    height: 565px;
+    background-color: #F6F5FA;
+    border-radius: 18px;
+    position: relative;
+}
+.transform-position-main{
+    position: absolute;
+    top: 83px;
+    left: -44px;
+}
+.transform-position-play-icon{
+    position: absolute;
+    top: 235px;
+    right: 292px;
+}
+.transform-card {
+    width: 150px;
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 25px -12px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.transform .transform-card .transform-card-heading{
+    margin-top: 12px;
+}
+.transform-card-position-one{
+    position: absolute;
+    left: 18px;
+    bottom: -55px;
+}
+.transform-card-position-two{
+    position: absolute;
+    left: 186px;
+    bottom: -55px;
+}
+.transform-card-position-three{
+    position: absolute;
+    left: 354px;
+    bottom: -55px;
+}
+/* Transform Section End  */
+
+/* Testimonial Section Start  */
+
+.testimonial{
+    margin-bottom: 130px;
+}
+.testimonial .testi-left .testi-heading{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    color: #101130;
+}
+.testimonial .testi-quote{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #101130;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+.testimonial .testi-desc{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #606176;
+}
+.five-star{
+    display: flex;
+    column-gap: 27px;
+}
+.five-star .five-star-text h5{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #101130;
+}
+.five-star .five-star-text h4{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #606176;
+}
+.margin{
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+.margin-top{
+    padding-top: 112px;
+}
+.margin-bottom{
+    margin-bottom: 45px;
+}
+.testi-right{
+    position: relative;
+}
+.left-arrow{
+    position: absolute;
+    top: 34px;
+    right: 0px;
+}
+.right-arrow{
+    position: absolute;
+    top: 34px;
+    right: 54px;
+}
+/* Testimonial part End  */
+
+/* Pricing part start  */
+
+.pricing .pricing-header{
+    width: 1125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.pricing .pricing-header h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    color: #101130;
+    max-width: 591px;
+}
+.pricing .pricing-header button{
+    padding: 19px 23px ;
+    border: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #2076FF;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 1px solid #2076FF;
+}
+.pricing .pricing-header button:hover{
+    background-color: #2076FF;
+    color: white;
+    transition: 0.7s;
+}
+.pricing .pricing-card{
+    margin-bottom: 130px;
+    margin-top: 60px;
+    display: flex;
+    column-gap: 105px;
+    width: 1140px;
+}
+.slidush{
+    width: 1140px;
+}
+.pricing .pricing-card .pricing-card-wrapper{
+    width: 305px;
+    height: 587px;
+    border-radius: 18px;
+    position: relative;
+}
+.pricing-card-bg{
+    background-color: #EDF3FF;
+}
+.second-pricing-card-bg{
+    background-color: #FEF0C3;
+}
+.third-pricing-card-bg{
+    background-color: #FEE6DC;
+}
+.shape{
+    width: 305px;
+    height: 100px;
+    background-color: #2076FF;
+    border-radius: 18px 18px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.second-shape{
+    background-color: #F6C07A;
+}
+.third-shape{
+    background-color: #F77E53;
+}
+.shape p{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding: 36px 0 0 107px;
+}
+.card-list{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #606176;
+    padding-top: 40px;
+    padding-left: 68px;
+    list-style: none;
+    
+}
+.card-list li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #2076FF; /* Change the color */
+    font-weight: bolder; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    font-size: 1.3em;  /* To make bigger  */
+}
+.second-card-list li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #F6C07A; /* Change the color */
+    font-weight: bolder; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    font-size: 1.3em;  /* To make bigger  */
+}
+.third-card-list li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #F77E53; /* Change the color */
+    font-weight: bolder; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    font-size: 1.3em;  /* To make bigger  */
+}
+.card-list li{
+    margin-bottom: 30px;
+}
+.pricing-card-button{
+    display: flex;
+    justify-content: center;
+}
+.pricing .pricing-card h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 38px;
+    color: #101130;
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+.pricing .pricing-card .doller-sign{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #101130;
+}
+.pricing .pricing-card .pricing-btn{
+    padding: 23px 88px;
+    background-color: transparent;
+    margin-top: 53px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.pricing .pricing-card .pricing-btn:hover{
+    background-color: #2076FF;
+    color: white;
+    transition: 0.4s;
+}
+.pricing .pricing-card .second-hover:hover{
+    background-color: #F6C07A;
+}
+.pricing .pricing-card .third-hover:hover{
+    background-color: #F77E53;
+}
+.first-pricing-card-btn{
+    border: 1px solid #2076FF;
+    border-radius: 14px;
+    color: #2076FF;
+}
+.second-pricing-card-btn{
+    border: 1px solid #F6C07A;
+    border-radius: 14px;
+    color: #F6C07A;
+}
+.third-pricing-card-btn{
+    border: 1px solid #F77E53;
+    border-radius: 14px;
+    color: #F77E53;
+}
+
+/* Pricing part End */
+.border{
+    border: 1px solid #606176;
+}
+.footer .footer-text h2{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #606176;
+    max-width: 285px;
+    margin-top: 30px;
+}
+.footer-list{
+    display: flex;
+    column-gap: 175px;
+    margin-left: 49px;
+}
+.footer-list ul li:first-child{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    color: #101130;
+    margin-bottom: 36px;
+}
+.footer-list ul{
+    list-style: none;
+    padding-bottom: 60px;
+}
+.footer-list ul li{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    color: #606176;
+    margin-bottom: 21px;
+}
+.footer .app{
+    margin-left: 45px;
+}
+.footer .app h4{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    color: #101130;
+    margin-bottom: 36px;
+}
+.last-image{
+    padding-top: 18px;
+}
+.footer .copy-right{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #606176;
+    padding: 39px 0;
+}
+
+/* Footer Part End  */
